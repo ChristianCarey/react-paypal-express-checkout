@@ -1,6 +1,6 @@
 {
     "name": "react-paypal-express-checkout-no-shipping",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "React component that renders Paypal's express check out button without shipping. Forked from 'https://github.com/thinhvo0108/react-paypal-express-checkout.git'.",
     "repository": {
         "type": "git",

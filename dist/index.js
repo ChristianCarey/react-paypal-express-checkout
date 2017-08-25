@@ -132,7 +132,7 @@
                     return paypal.rest.payment.create(_this2.props.env, _this2.props.client, {
                         payment: {
                             transactions: [{
-                                amount: { total: '1.00', currency: 'USD' }
+                                amount: { total: _this2.props.total, currency: 'USD' }
                             }]
                         },
 
