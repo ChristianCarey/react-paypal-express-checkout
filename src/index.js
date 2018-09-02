@@ -39,7 +39,7 @@ class PaypalButton extends React.Component {
                 payment: {
                     transactions: [
                         {
-                            amount: { total: this.props.total, currency: 'USD' }
+                            amount: { total: this.props.total, currency: this.props.currency }
                         }
                     ]
                 },
